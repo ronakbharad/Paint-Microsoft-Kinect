@@ -1,0 +1,49 @@
+Kinect as a Teaching Tool in Computer Science
+Lucie, Ronak, Jessica, Vivek
+
+Materials
+1 Kinect per two or three students.
+All the resources available here: https://www.dropbox.com/sh/6mi04xeswve47jf/AABXDLfKqp23cVog5N7R0snua
+
+Setup
+1. Each PC should have the following installed (all available from the link above):
+OPENNI-Win32
+KinectSDK
+Processing 2.1.2 (32 or 64 bit okay)
+2. (This step may need to be done by hand on each machine) Setup SimpleOpenNI as follows:
+	a. Press start-> Type “Processing” -> Hit enter.
+	b. Sketch > Import Library > Add Library
+	c. In the “Filter your search…” text box, enter: “Kinect”
+	d. Click on SimpleOpenNI, and click “Install.” Once it installs, you can close that window.
+3.  Plug in each Kinect’s power and connect to a Windows PC via USB. 
+
+Students perform these steps:
+4. In processing, open and navigate to the “Provided Code/SimpleKinectExample” folder. Open SimpleKinectExample.pde
+5. Run the program.
+
+(Note: we have never had any bugs with any of these steps so far, so we don’t have any troubleshooting tips at this time)
+
+Lesson plan:
+1. Refresher of processing/ how to call methods on an object (10 minutes)
+2. Introduction to EasyKinect through demo and runthrough of simple program (10 mins)
+3. Allow students 40 minutes to experiment with EasyKinect and see what it offers. (40 mins)
+4. Introduce KinectPaint program. (10)
+5. Allow students to either
+ a) continue their existing project, knowing that we, the organizers may or may not be able to solve every problem they run into, or 
+b) Work on adding on to KinectPaint
+(1 hour)
+6. Lunch break (1 hour?)
+7. Continue step 5 (40 mins)
+8. Discussion/wrap up/presentations?
+
+
+Purpose of lesson/Points we want to get across (talk about these in discussion):
+Even the most complicated devices can be interfaced with in simple ways through the power of abstraction. 
+Computer science allows you to work with something as complicated as the kinect (which has two cameras and an infrared range-detector!) without knowing how it actually works. You can imagine that with a clean enough interface, you could give instructions to a car (Google’s new self driving cars) or even a house.
+Computer science can be very abstract, but it can also interact with the real world in very direct ways.
+
+
+How to include SimpleKinect in a Processing sketch:
+1. Create a new sketch and save it as normal.
+2. Sketch > Add File > SimpleKinect.pde
+SimpleKinect is now a part of this program and you have all of its functionality.
